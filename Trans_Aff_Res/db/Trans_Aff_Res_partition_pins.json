@@ -1,0 +1,69 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ID_Uni[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ID_Uni[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ID_Uni[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ID_Uni[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ID_Diz[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ID_Diz[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ID_Diz[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ID_Diz[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CAP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CAP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CAP[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CAP[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CAP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CAP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CAP[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

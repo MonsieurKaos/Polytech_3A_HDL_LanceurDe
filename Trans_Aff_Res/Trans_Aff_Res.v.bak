@@ -1,0 +1,23 @@
+module Trans_Aff_Res(CAP, ID_Uni, ID_Diz);
+
+input[6:0] CAP;
+
+output[6:0] ID_Diz;
+output[6:0] ID_Uni;
+
+reg[6:0] ID_Uni;
+reg[6:0] ID_Diz;
+
+
+assign SegOut[0:6] = ~iSegOut[0:6];	
+
+
+always @(CAP)
+begin
+	
+	
+end
+
+
+
+endmodule

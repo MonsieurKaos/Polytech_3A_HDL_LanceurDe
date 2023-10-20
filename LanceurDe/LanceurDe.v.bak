@@ -1,0 +1,31 @@
+module LanceurDe(ClkIn, BLancer, Choix, Ch_Uni, Ch_Diz, Ch_Ce, Ch_d, Res_Uni, Res_Diz);
+
+input ClkIn;
+input Blancer;
+input [7:0] Choix;
+
+output [6:0] Ch_Uni, Ch_Diz, Ch_Ce, Ch_d, Res_Uni, Res_Diz;
+
+wire[6:0]			binchoix;
+wire[6:0]			ValMax;
+wire[6:0]			ValMin;
+wire[6:0]			ValCPT;
+wire[6:0]			Result;
+
+wire[3:0]			Id_Ch_Uni;
+wire[3:0]			Id_Ch_Diz;
+wire[3:0]			Id_Ch_Cen;
+wire[3:0]			Id_Ch_D;
+wire[3:0]			Id_Res_Uni;
+wire[3:0]			Id_Res_Diz;
+
+wire[7:0]	NbClk;
+
+DivFreq	#(19,500000,250000,1)	divby500K(ClkIn,Clk100ms);	// Div by 500000, alpha = 0,5, positive polarity
+
+CntModEN #(8,256,0)	cnt8bits_modulo256(Clk100ms, NbClk, 1);	// 8 bit, modulo 256 counter. Active clock = falling edge - counting always enabled
+
+BinTo7Seg #(1)	HighDisplay(NbClk[7:4], DigitH);
+BinTo7Seg #(1)	LowDisplay(NbClk[3:0], DigitL);
+
+endmodule 

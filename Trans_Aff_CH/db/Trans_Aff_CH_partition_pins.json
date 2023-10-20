@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Id_Un[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Id_Un[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Id_Un[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Id_Diz[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Id_Diz[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Id_Diz[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Id_Cent[0]",
+					"strict" : false
+				},
+				{
+					"name" : "NB_Face[5]",
+					"strict" : false
+				},
+				{
+					"name" : "NB_Face[6]",
+					"strict" : false
+				},
+				{
+					"name" : "NB_Face[2]",
+					"strict" : false
+				},
+				{
+					"name" : "NB_Face[3]",
+					"strict" : false
+				},
+				{
+					"name" : "NB_Face[1]",
+					"strict" : false
+				},
+				{
+					"name" : "NB_Face[4]",
+					"strict" : false
+				},
+				{
+					"name" : "NB_Face[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,377 @@
+|BlockLanceur
+HEX0[6] <= LanceurDe:inst.Ch_Uni[0]
+HEX0[5] <= LanceurDe:inst.Ch_Uni[1]
+HEX0[4] <= LanceurDe:inst.Ch_Uni[2]
+HEX0[3] <= LanceurDe:inst.Ch_Uni[3]
+HEX0[2] <= LanceurDe:inst.Ch_Uni[4]
+HEX0[1] <= LanceurDe:inst.Ch_Uni[5]
+HEX0[0] <= LanceurDe:inst.Ch_Uni[6]
+CLOCK_50 => LanceurDe:inst.ClkIn
+KEY[0] => LanceurDe:inst.BLancer
+SW[0] => LanceurDe:inst.Choix[0]
+SW[1] => LanceurDe:inst.Choix[1]
+SW[2] => LanceurDe:inst.Choix[2]
+SW[3] => LanceurDe:inst.Choix[3]
+SW[4] => LanceurDe:inst.Choix[4]
+SW[5] => LanceurDe:inst.Choix[5]
+SW[6] => LanceurDe:inst.Choix[6]
+SW[7] => LanceurDe:inst.Choix[7]
+HEX1[6] <= LanceurDe:inst.Ch_Diz[0]
+HEX1[5] <= LanceurDe:inst.Ch_Diz[1]
+HEX1[4] <= LanceurDe:inst.Ch_Diz[2]
+HEX1[3] <= LanceurDe:inst.Ch_Diz[3]
+HEX1[2] <= LanceurDe:inst.Ch_Diz[4]
+HEX1[1] <= LanceurDe:inst.Ch_Diz[5]
+HEX1[0] <= LanceurDe:inst.Ch_Diz[6]
+HEX2[6] <= LanceurDe:inst.Ch_Ce[0]
+HEX2[5] <= LanceurDe:inst.Ch_Ce[1]
+HEX2[4] <= LanceurDe:inst.Ch_Ce[2]
+HEX2[3] <= LanceurDe:inst.Ch_Ce[3]
+HEX2[2] <= LanceurDe:inst.Ch_Ce[4]
+HEX2[1] <= LanceurDe:inst.Ch_Ce[5]
+HEX2[0] <= LanceurDe:inst.Ch_Ce[6]
+HEX3[6] <= LanceurDe:inst.Ch_d[0]
+HEX3[5] <= LanceurDe:inst.Ch_d[1]
+HEX3[4] <= LanceurDe:inst.Ch_d[2]
+HEX3[3] <= LanceurDe:inst.Ch_d[3]
+HEX3[2] <= LanceurDe:inst.Ch_d[4]
+HEX3[1] <= LanceurDe:inst.Ch_d[5]
+HEX3[0] <= LanceurDe:inst.Ch_d[6]
+HEX4[6] <= LanceurDe:inst.Res_Uni[0]
+HEX4[5] <= LanceurDe:inst.Res_Uni[1]
+HEX4[4] <= LanceurDe:inst.Res_Uni[2]
+HEX4[3] <= LanceurDe:inst.Res_Uni[3]
+HEX4[2] <= LanceurDe:inst.Res_Uni[4]
+HEX4[1] <= LanceurDe:inst.Res_Uni[5]
+HEX4[0] <= LanceurDe:inst.Res_Uni[6]
+HEX5[6] <= LanceurDe:inst.Res_Diz[0]
+HEX5[5] <= LanceurDe:inst.Res_Diz[1]
+HEX5[4] <= LanceurDe:inst.Res_Diz[2]
+HEX5[3] <= LanceurDe:inst.Res_Diz[3]
+HEX5[2] <= LanceurDe:inst.Res_Diz[4]
+HEX5[1] <= LanceurDe:inst.Res_Diz[5]
+HEX5[0] <= LanceurDe:inst.Res_Diz[6]
+
+
+|BlockLanceur|LanceurDe:inst
+ClkIn => ClkIn.IN1
+BLancer => BLancer.IN1
+Choix[0] => Choix[0].IN1
+Choix[1] => Choix[1].IN1
+Choix[2] => Choix[2].IN1
+Choix[3] => Choix[3].IN1
+Choix[4] => Choix[4].IN1
+Choix[5] => Choix[5].IN1
+Choix[6] => Choix[6].IN1
+Choix[7] => Choix[7].IN1
+Ch_Uni[0] <= Trans_7seg:ChoixUni.port1
+Ch_Uni[1] <= Trans_7seg:ChoixUni.port1
+Ch_Uni[2] <= Trans_7seg:ChoixUni.port1
+Ch_Uni[3] <= Trans_7seg:ChoixUni.port1
+Ch_Uni[4] <= Trans_7seg:ChoixUni.port1
+Ch_Uni[5] <= Trans_7seg:ChoixUni.port1
+Ch_Uni[6] <= Trans_7seg:ChoixUni.port1
+Ch_Diz[0] <= Trans_7seg:ChoixDiz.port1
+Ch_Diz[1] <= Trans_7seg:ChoixDiz.port1
+Ch_Diz[2] <= Trans_7seg:ChoixDiz.port1
+Ch_Diz[3] <= Trans_7seg:ChoixDiz.port1
+Ch_Diz[4] <= Trans_7seg:ChoixDiz.port1
+Ch_Diz[5] <= Trans_7seg:ChoixDiz.port1
+Ch_Diz[6] <= Trans_7seg:ChoixDiz.port1
+Ch_Ce[0] <= Trans_7seg:ChoixCen.port1
+Ch_Ce[1] <= Trans_7seg:ChoixCen.port1
+Ch_Ce[2] <= Trans_7seg:ChoixCen.port1
+Ch_Ce[3] <= Trans_7seg:ChoixCen.port1
+Ch_Ce[4] <= Trans_7seg:ChoixCen.port1
+Ch_Ce[5] <= Trans_7seg:ChoixCen.port1
+Ch_Ce[6] <= Trans_7seg:ChoixCen.port1
+Ch_D[0] <= Trans_7seg:ChoixD.port1
+Ch_D[1] <= Trans_7seg:ChoixD.port1
+Ch_D[2] <= Trans_7seg:ChoixD.port1
+Ch_D[3] <= Trans_7seg:ChoixD.port1
+Ch_D[4] <= Trans_7seg:ChoixD.port1
+Ch_D[5] <= Trans_7seg:ChoixD.port1
+Ch_D[6] <= Trans_7seg:ChoixD.port1
+Res_Uni[0] <= Trans_7seg:ResUni.port1
+Res_Uni[1] <= Trans_7seg:ResUni.port1
+Res_Uni[2] <= Trans_7seg:ResUni.port1
+Res_Uni[3] <= Trans_7seg:ResUni.port1
+Res_Uni[4] <= Trans_7seg:ResUni.port1
+Res_Uni[5] <= Trans_7seg:ResUni.port1
+Res_Uni[6] <= Trans_7seg:ResUni.port1
+Res_Diz[0] <= Trans_7seg:ResDiz.port1
+Res_Diz[1] <= Trans_7seg:ResDiz.port1
+Res_Diz[2] <= Trans_7seg:ResDiz.port1
+Res_Diz[3] <= Trans_7seg:ResDiz.port1
+Res_Diz[4] <= Trans_7seg:ResDiz.port1
+Res_Diz[5] <= Trans_7seg:ResDiz.port1
+Res_Diz[6] <= Trans_7seg:ResDiz.port1
+
+
+|BlockLanceur|LanceurDe:inst|TransSWBin:TSWBin
+SWIn[0] => Decoder0.IN7
+SWIn[1] => Decoder0.IN6
+SWIn[2] => Decoder0.IN5
+SWIn[3] => Decoder0.IN4
+SWIn[4] => Decoder0.IN3
+SWIn[5] => Decoder0.IN2
+SWIn[6] => Decoder0.IN1
+SWIn[7] => Decoder0.IN0
+NB_Face[0] <= <GND>
+NB_Face[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[4] <= NB_Face.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|Trans_Aff_CH:TAffChoix
+NB_Face[0] => Decoder0.IN6
+NB_Face[1] => Decoder0.IN5
+NB_Face[2] => Decoder0.IN4
+NB_Face[3] => Decoder0.IN3
+NB_Face[4] => Decoder0.IN2
+NB_Face[5] => Decoder0.IN1
+NB_Face[6] => Decoder0.IN0
+Id_Un[0] <= <GND>
+Id_Un[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Id_Un[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Id_Un[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Id_Diz[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Id_Diz[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Id_Diz[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Id_Diz[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Id_Cent[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Id_Cent[1] <= <GND>
+Id_Cent[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Id_Cent[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Id_d[0] <= <VCC>
+Id_d[1] <= <VCC>
+Id_d[2] <= <GND>
+Id_d[3] <= <VCC>
+
+
+|BlockLanceur|LanceurDe:inst|TransBinCPT:TBinCPT
+NB_Face[0] => Equal3.IN63
+NB_Face[0] => Equal4.IN63
+NB_Face[0] => Decoder0.IN6
+NB_Face[0] => Equal0.IN31
+NB_Face[0] => Equal1.IN31
+NB_Face[0] => Equal2.IN31
+NB_Face[1] => Equal3.IN62
+NB_Face[1] => Equal4.IN62
+NB_Face[1] => Decoder0.IN5
+NB_Face[1] => Equal0.IN30
+NB_Face[1] => Equal1.IN1
+NB_Face[1] => Equal2.IN30
+NB_Face[2] => Equal3.IN61
+NB_Face[2] => Equal4.IN61
+NB_Face[2] => Decoder0.IN4
+NB_Face[2] => Equal0.IN29
+NB_Face[2] => Equal1.IN30
+NB_Face[2] => Equal2.IN2
+NB_Face[3] => Equal3.IN60
+NB_Face[3] => Equal4.IN60
+NB_Face[3] => Decoder0.IN3
+NB_Face[3] => Equal0.IN28
+NB_Face[3] => Equal1.IN0
+NB_Face[3] => Equal2.IN29
+NB_Face[4] => Equal3.IN59
+NB_Face[4] => Equal4.IN59
+NB_Face[4] => Decoder0.IN2
+NB_Face[4] => Equal0.IN27
+NB_Face[4] => Equal1.IN29
+NB_Face[4] => Equal2.IN28
+NB_Face[5] => Equal3.IN58
+NB_Face[5] => Equal4.IN58
+NB_Face[5] => Decoder0.IN1
+NB_Face[5] => Equal0.IN26
+NB_Face[5] => Equal1.IN28
+NB_Face[5] => Equal2.IN1
+NB_Face[6] => Equal3.IN57
+NB_Face[6] => Equal4.IN57
+NB_Face[6] => Decoder0.IN0
+NB_Face[6] => Equal0.IN25
+NB_Face[6] => Equal1.IN27
+NB_Face[6] => Equal2.IN0
+Min[0] <= always0.DB_MAX_OUTPUT_PORT_TYPE
+Min[1] <= <GND>
+Min[2] <= <GND>
+Min[3] <= <GND>
+Min[4] <= <GND>
+Min[5] <= <GND>
+Min[6] <= <GND>
+Max[0] <= Max[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Max[1] <= Max[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Max[2] <= Max[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Max[3] <= Max[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Max[4] <= Max[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Max[5] <= Max[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Max[6] <= Max[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|CPTAleat:CAleat
+Clk => CMP[0]~reg0.CLK
+Clk => CMP[1]~reg0.CLK
+Clk => CMP[2]~reg0.CLK
+Clk => CMP[3]~reg0.CLK
+Clk => CMP[4]~reg0.CLK
+Clk => CMP[5]~reg0.CLK
+Clk => CMP[6]~reg0.CLK
+Min[0] => CMP.DATAB
+Min[1] => CMP.DATAB
+Min[2] => CMP.DATAB
+Min[3] => CMP.DATAB
+Min[4] => CMP.DATAB
+Min[5] => CMP.DATAB
+Min[6] => CMP.DATAB
+Max[0] => Add1.IN14
+Max[1] => Add1.IN13
+Max[2] => Add1.IN12
+Max[3] => Add1.IN11
+Max[4] => Add1.IN10
+Max[5] => Add1.IN9
+Max[6] => Add1.IN8
+CMP[0] <= CMP[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[1] <= CMP[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[2] <= CMP[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[3] <= CMP[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[4] <= CMP[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[5] <= CMP[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[6] <= CMP[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|MemoireDe:MDe
+CAP => VAL[0]~reg0.CLK
+CAP => VAL[1]~reg0.CLK
+CAP => VAL[2]~reg0.CLK
+CAP => VAL[3]~reg0.CLK
+CAP => VAL[4]~reg0.CLK
+CAP => VAL[5]~reg0.CLK
+CAP => VAL[6]~reg0.CLK
+CMP[0] => VAL[0]~reg0.DATAIN
+CMP[1] => VAL[1]~reg0.DATAIN
+CMP[2] => VAL[2]~reg0.DATAIN
+CMP[3] => VAL[3]~reg0.DATAIN
+CMP[4] => VAL[4]~reg0.DATAIN
+CMP[5] => VAL[5]~reg0.DATAIN
+CMP[6] => VAL[6]~reg0.DATAIN
+VAL[0] <= VAL[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+VAL[1] <= VAL[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+VAL[2] <= VAL[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+VAL[3] <= VAL[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+VAL[4] <= VAL[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+VAL[5] <= VAL[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+VAL[6] <= VAL[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|Trans_Aff_Res:TAffRes
+CAP[0] => Mod0.IN10
+CAP[0] => Add0.IN14
+CAP[1] => Mod0.IN9
+CAP[1] => Add0.IN13
+CAP[2] => Mod0.IN8
+CAP[2] => Add0.IN12
+CAP[3] => Mod0.IN7
+CAP[3] => Add0.IN11
+CAP[4] => Mod0.IN6
+CAP[4] => Add0.IN10
+CAP[5] => Mod0.IN5
+CAP[5] => Add0.IN9
+CAP[6] => Mod0.IN4
+CAP[6] => Add0.IN8
+ID_Uni[0] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+ID_Uni[1] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+ID_Uni[2] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+ID_Uni[3] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+ID_Diz[0] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+ID_Diz[1] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+ID_Diz[2] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+ID_Diz[3] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|Trans_7seg:ChoixUni
+BinIn[0] => Decoder0.IN3
+BinIn[1] => Decoder0.IN2
+BinIn[2] => Decoder0.IN1
+BinIn[3] => Decoder0.IN0
+SegOut[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|Trans_7seg:ChoixDiz
+BinIn[0] => Decoder0.IN3
+BinIn[1] => Decoder0.IN2
+BinIn[2] => Decoder0.IN1
+BinIn[3] => Decoder0.IN0
+SegOut[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|Trans_7seg:ChoixCen
+BinIn[0] => Decoder0.IN3
+BinIn[1] => Decoder0.IN2
+BinIn[2] => Decoder0.IN1
+BinIn[3] => Decoder0.IN0
+SegOut[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|Trans_7seg:ChoixD
+BinIn[0] => Decoder0.IN3
+BinIn[1] => Decoder0.IN2
+BinIn[2] => Decoder0.IN1
+BinIn[3] => Decoder0.IN0
+SegOut[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|Trans_7seg:ResUni
+BinIn[0] => Decoder0.IN3
+BinIn[1] => Decoder0.IN2
+BinIn[2] => Decoder0.IN1
+BinIn[3] => Decoder0.IN0
+SegOut[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BlockLanceur|LanceurDe:inst|Trans_7seg:ResDiz
+BinIn[0] => Decoder0.IN3
+BinIn[1] => Decoder0.IN2
+BinIn[2] => Decoder0.IN1
+BinIn[3] => Decoder0.IN0
+SegOut[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

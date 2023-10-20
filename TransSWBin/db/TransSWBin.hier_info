@@ -1,0 +1,18 @@
+|TransSWBin
+SWIn[0] => Decoder0.IN7
+SWIn[1] => Decoder0.IN6
+SWIn[2] => Decoder0.IN5
+SWIn[3] => Decoder0.IN4
+SWIn[4] => Decoder0.IN3
+SWIn[5] => Decoder0.IN2
+SWIn[6] => Decoder0.IN1
+SWIn[7] => Decoder0.IN0
+NB_Face[0] << <GND>
+NB_Face[1] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[2] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[3] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[4] << NB_Face.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[5] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+NB_Face[6] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

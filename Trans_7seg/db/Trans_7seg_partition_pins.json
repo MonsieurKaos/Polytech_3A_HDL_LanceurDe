@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SegOut[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SegOut[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SegOut[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SegOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SegOut[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SegOut[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SegOut[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BinIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BinIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BinIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BinIn[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

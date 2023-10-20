@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Quartus/HDL_Projet/Trans_Aff_Res/simulation/qsim
+vTrans_Aff_Res
+Z1 !s110 1696499189
+!i10b 1
+!s100 f2I?flZle5Szm>YGbjVXn2
+In`^F=:oZ_h9?4T?nNWISJ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1696499188
+8Trans_Aff_Res.vo
+FTrans_Aff_Res.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1696499189.000000
+!s107 Trans_Aff_Res.vo|
+!s90 -work|work|Trans_Aff_Res.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@trans_@aff_@res
+vTrans_Aff_Res_vlg_vec_tst
+R1
+!i10b 1
+!s100 bn=6PM@2OgGVj7^=aaao^3
+IKAcdDl3B?69:PE:iUl>YC0
+R2
+R0
+w1696499185
+8Trans_Aff_ResTest.vwf.vt
+FTrans_Aff_ResTest.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Trans_Aff_ResTest.vwf.vt|
+!s90 -work|work|Trans_Aff_ResTest.vwf.vt|
+!i113 1
+R5
+R6
+n@trans_@aff_@res_vlg_vec_tst

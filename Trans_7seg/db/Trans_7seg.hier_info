@@ -1,0 +1,17 @@
+|Trans_7seg
+BinIn[0] => Decoder0.IN3
+BinIn[0] => Decoder1.IN2
+BinIn[1] => Decoder0.IN2
+BinIn[2] => Decoder0.IN1
+BinIn[2] => Decoder1.IN1
+BinIn[3] => Decoder0.IN0
+BinIn[3] => Decoder1.IN0
+SegOut[6] << WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[5] << WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[4] << WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[3] << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[2] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[1] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+SegOut[0] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

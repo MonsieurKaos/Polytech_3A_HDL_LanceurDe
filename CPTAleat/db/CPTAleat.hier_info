@@ -1,0 +1,31 @@
+|CPTAleat
+Clk => CMP[0]~reg0.CLK
+Clk => CMP[1]~reg0.CLK
+Clk => CMP[2]~reg0.CLK
+Clk => CMP[3]~reg0.CLK
+Clk => CMP[4]~reg0.CLK
+Clk => CMP[5]~reg0.CLK
+Clk => CMP[6]~reg0.CLK
+Min[0] => CMP.DATAB
+Min[1] => CMP.DATAB
+Min[2] => CMP.DATAB
+Min[3] => CMP.DATAB
+Min[4] => CMP.DATAB
+Min[5] => CMP.DATAB
+Min[6] => CMP.DATAB
+Max[0] => Add1.IN14
+Max[1] => Add1.IN13
+Max[2] => Add1.IN12
+Max[3] => Add1.IN11
+Max[4] => Add1.IN10
+Max[5] => Add1.IN9
+Max[6] => Add1.IN8
+CMP[0] << CMP[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[1] << CMP[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[2] << CMP[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[3] << CMP[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[4] << CMP[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[5] << CMP[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CMP[6] << CMP[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

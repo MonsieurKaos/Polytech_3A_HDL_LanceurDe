@@ -1,0 +1,37 @@
+module TransBinCPT(NB_Face, Min, Max);
+
+input[6:0] NB_Face;	
+
+
+output[6:0] Min, [6:0] Max;		
+
+reg[6:0] NB_Face;
+
+always @(NB_Face)
+begin
+	if (NB_Face == 10 or NB_Face == 100)
+		begin
+		Min <= 0;
+			case (NB_Face) 	
+				10 : Max <= 	9;
+				100 : Max <= 	99;
+			endcase
+		end
+		else
+			begin
+			Min <= 1;
+				case (NB_Face) 	
+					4 : Max <= 	4;
+					6 : Max <= 	6;
+					8 : Max <= 	8;
+					12 : Max <= 	12;
+					20 : Max <= 	20;
+					30 : Max <= 	30;
+					default : Max <= 6;
+				endcase
+			end
+		end
+	end	
+end
+
+endmodule

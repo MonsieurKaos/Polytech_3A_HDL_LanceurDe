@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Quartus/HDL_Projet/CPTAleat/simulation/qsim
+vCPTAleat
+Z1 !s110 1696495656
+!i10b 1
+!s100 ^;SgJ1Kh:_mjH:6H3DEe60
+IXQN^PlX1d8Jl5FmYc]KlV0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1696495654
+Z3 8CPTAleat.vo
+Z4 FCPTAleat.vo
+L0 31
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1696495656.000000
+Z7 !s107 CPTAleat.vo|
+Z8 !s90 -work|work|CPTAleat.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@c@p@t@aleat
+vCPTAleat_vlg_vec_tst
+R1
+!i10b 1
+!s100 b<lbbMSjSIZ=@d_P:97O?2
+IB]9[>IO42_AYVPhe`CId@1
+R2
+R0
+w1696495652
+8CPTAleat.vwf.vt
+FCPTAleat.vwf.vt
+L0 29
+R5
+r1
+!s85 0
+31
+R6
+!s107 CPTAleat.vwf.vt|
+!s90 -work|work|CPTAleat.vwf.vt|
+!i113 1
+R9
+R10
+n@c@p@t@aleat_vlg_vec_tst
+vhard_block
+!s110 1696495455
+!i10b 1
+!s100 OCNFD[Qe9ojSe_WiH?[f82
+I^BZ=Y]FKm0e_mdaDo@:9^2
+R2
+R0
+w1696495453
+R3
+R4
+L0 957
+R5
+r1
+!s85 0
+31
+!s108 1696495454.000000
+R7
+R8
+!i113 1
+R9
+R10

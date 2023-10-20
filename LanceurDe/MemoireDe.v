@@ -1,0 +1,17 @@
+module MemoireDe (CAP, CMP, VAL);
+
+input CAP;
+input [6:0] CMP;
+output [6:0] VAL;
+
+reg [6:0] VAL;
+
+always @(posedge (CAP))
+begin
+	if (CAP == 1)
+		begin
+			VAL <= CMP;
+		end
+end 
+
+endmodule

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Projet_HDL/simulation/qsim
+vTrans_Aff_CH
+Z1 !s110 1696499121
+!i10b 1
+!s100 eBKc]DU=13i64OcOH_`d31
+I<6n1hFYIYnM6lG@E^b3F63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1696499119
+8Trans_Aff_CH.vo
+FTrans_Aff_CH.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1696499121.000000
+!s107 Trans_Aff_CH.vo|
+!s90 -work|work|Trans_Aff_CH.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@trans_@aff_@c@h
+vTrans_Aff_CH_vlg_vec_tst
+R1
+!i10b 1
+!s100 CGPeKAQd=cTZGG2S]JS_b3
+ImSofd49<bz]?k;R0jKIJ32
+R2
+R0
+w1696499116
+8test_Trans_Aff_Ch.vwf.vt
+Ftest_Trans_Aff_Ch.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 test_Trans_Aff_Ch.vwf.vt|
+!s90 -work|work|test_Trans_Aff_Ch.vwf.vt|
+!i113 1
+R5
+R6
+n@trans_@aff_@c@h_vlg_vec_tst

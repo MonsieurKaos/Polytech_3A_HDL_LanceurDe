@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Oct 14 12:10:32 2023
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : LanceurDe
+Top-level Entity Name : BlockLanceur
+Family : Cyclone IV E
+Total logic elements : 214
+    Total combinational functions : 207
+    Dedicated logic registers : 14
+Total registers : 14
+Total pins : 52
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

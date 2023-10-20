@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 05 12:03:59 2023
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Trans_Aff_Res
+Top-level Entity Name : Trans_Aff_Res
+Family : Cyclone IV E
+Total logic elements : 110
+    Total combinational functions : 110
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 15
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

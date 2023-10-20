@@ -1,0 +1,28 @@
+module TransSWBin(SWIn, NB_Face);
+
+input[7:0] SWIn;	
+
+
+output[6:0] NB_Face;		
+
+reg[6:0] iNB_Face;
+
+assign NB_Face[6:0] = ~iNB_Face[6:0];
+
+
+always @(TransSWBin)
+begin
+	case (TransSWBin)
+						   	
+		0 : iSegOut <= 	4;
+		1 : iSegOut <= 	6;
+		2 : iSegOut <= 	8;
+		3 : iSegOut <= 	10;
+		4 : iSegOut <= 	12;
+		5 : iSegOut <= 	20;
+		6 : iSegOut <= 	30;
+		7 : iSegOut <= 	100;
+	endcase
+end
+
+endmodule

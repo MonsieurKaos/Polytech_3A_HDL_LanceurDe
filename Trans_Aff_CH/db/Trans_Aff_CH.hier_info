@@ -1,0 +1,26 @@
+|Trans_Aff_CH
+NB_Face[0] => Decoder0.IN6
+NB_Face[1] => Decoder0.IN5
+NB_Face[2] => Decoder0.IN4
+NB_Face[3] => Decoder0.IN3
+NB_Face[4] => Decoder0.IN2
+NB_Face[5] => Decoder0.IN1
+NB_Face[6] => Decoder0.IN0
+Id_Un[0] <= <GND>
+Id_Un[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Id_Un[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Id_Un[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Id_Diz[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Id_Diz[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Id_Diz[2] <= <GND>
+Id_Diz[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Id_Cent[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Id_Cent[1] <= <GND>
+Id_Cent[2] <= <GND>
+Id_Cent[3] <= <GND>
+Id_d[0] <= <VCC>
+Id_d[1] <= <VCC>
+Id_d[2] <= <GND>
+Id_d[3] <= <VCC>
+
+

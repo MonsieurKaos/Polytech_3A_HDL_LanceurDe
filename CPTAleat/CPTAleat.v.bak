@@ -1,0 +1,21 @@
+module CntModEN(Clk, Min, Max, CMP);
+
+input Clk;
+input Min;
+input Max;
+
+output[6:0]	CMP;
+reg[6:0]	CMP;
+
+assign CMP = (Min == 0)?(CMP<=0):(CMP<=1);
+
+// Main process (full synchronous module)
+always @(posedge (Clk))
+begin
+	CMP <= CMP+1;
+	if (CMP > Max)
+		begin
+		CMP<= Min;
+		end
+end 
+endmodule
